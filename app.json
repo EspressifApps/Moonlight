@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/operate/operate",
+    "pages/blueDevices/blueDevices",
+    "pages/blueWifi/blueWifi",
+    "pages/blueConnect/blueConnect"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark", 
+    "navigationBarBackgroundColor": "#e8352c",
+    "navigationBarTitleText": "小夜灯",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}
