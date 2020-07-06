@@ -55,6 +55,10 @@ Page({
       deviceId: self.data.deviceId,
       timeout: 10000,
       success: function (res) {
+        wx.setBLEMTU({
+          deviceId: self.data.deviceId,
+          mtu:128
+         })
         console.log(self.data.deviceId)
         self.getDeviceServices(self.data.deviceId);
       },
